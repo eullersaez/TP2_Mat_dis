@@ -1,0 +1,14 @@
+O programa foi desenvolvido utilizando a IDE Code Blocks (Release 17.12 rev 11256) no Windows 10.
+
+Para executá-lo, é necessário primeiramente criar o arquivo "entrada.txt" que irá conter as entradas adequadas
+no mesmo diretório EullerSaezLageSilva, e, após essa etapa, abrir o arquivo "relacao.c" dentro da IDE, ir até a
+aba "build", e selecionar "Build and run". Caso os comandos default não tenham sido alterados, é também possível
+simplesmente pressionar o botão "F9" do teclado já dentro da IDE com o código aberto para poder compilar e executar
+o programa.
+
+É também possível, no caso de executar diretamente do terminal do linux, criar o arquivo "entrada.txt" que irá conter
+as entradas adequadas no diretório EullerSaezLageSilva, e, após essa etapa, digitar o comando "gcc relacao.c -o relacao"
+para compilar o programa e em seguida digitar o comando "./relacao" para executá-lo.
+
+Observação: foi utilizada a biblioteca locale.h para que os caracteres acentuados da língua portuguesa fossem impressos
+normalmente no terminal.
